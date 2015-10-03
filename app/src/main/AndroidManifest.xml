@@ -31,10 +31,6 @@
             android:label="@string/title_activity_detail"
             android:parentActivityName=".MainActivity" >
         </activity>
-        <activity
-            android:name=".TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
     </application>
 
 </manifest>
