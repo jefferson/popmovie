@@ -1,0 +1,141 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailActivityFragmentMovie"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:nestedScrollingEnabled="true"
+    tools:context="com.example.jeffersonalves.playmovie.DetailActivityFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/detail_title_movie"
+                android:elevation="5dp"
+                android:paddingBottom="48dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="48dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view_label_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageViewDetailMovie"
+                android:layout_width="148dp"
+                android:layout_height="225dp"
+                android:src="@drawable/chappie"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/textViewYearRelease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRuntime"
+                android:layout_alignStart="@+id/textViewRuntime"
+                android:layout_alignTop="@+id/imageViewDetailMovie"
+                android:text="@string/text_view_year_release_label"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/textViewRuntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewYearRelease"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_toEndOf="@+id/imageViewDetailMovie"
+                android:layout_toRightOf="@+id/imageViewDetailMovie"
+                android:text="@string/text_view_label_runtime"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="32dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textViewVotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewRuntime"
+                android:layout_alignStart="@+id/textViewRuntime"
+                android:layout_below="@+id/textViewRuntime"
+                android:paddingLeft="5dp"
+                android:text="@string/text_view_label_votes"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/button"
+                style="android:attr/borderlessButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewVotes"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_btn_favorite"
+                android:padding="10dp"
+                android:text="@string/button_label_favorite"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp"
+                android:layout_marginLeft="200dp" />
+
+            <TextView
+                android:id="@+id/textViewSinopse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/text_view_label_sinopse"
+                android:padding="10dp"
+                android:layout_below="@+id/imageViewDetailMovie"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:alpha="0.60"
+                android:background="@android:color/black"
+                android:id="@+id/viewStub"
+                android:layout_below="@+id/textViewSinopse"
+                />
+
+                <ListView
+                    android:id="@+id/listViewVideos"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_below="@+id/textViewSinopse"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ListView
+                    android:id="@+id/listViewReviews"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/listViewVideos"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

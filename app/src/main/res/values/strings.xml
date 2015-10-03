@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="hello_world">Hello para todos os devs, espero que todos estejam muito bem e aprendendo com esta série sobre desenvolvimento para android/ Para quem esteja começando a embarcar no mundo do bonequinho verde sugiro que veja o inicio da serie neste POST
+
+Dando continuidade ao que temos vindo a aprender, hoje irei escrever sobre uma API, que vem disponível por defeito na plataforma mas infelizmente é muito pouco utilizada pelos desenvolvedores.
+
+Falo da Loaders API, que é uma API que oferece mecanismos para efectuar o carregamento de dados de forma assíncrona (Para quem quiser, tem uma boa descrição sobre Main / UI thread e background operations AQUI  ).
+
+Como disse acima, a Loaders API foi inicialmente introduzida no framework na versão do Android 3.0 e posteriormente introduzida na android support library v4 para que pudesse ser utilizada em versões inferiores. Esta API vem com varias vantagens comparadas ao AsyncTask e possui as seguintes características:Hello para todos os devs, espero que todos estejam muito bem e aprendendo com esta série sobre desenvolvimento para android/ Para quem esteja começando a embarcar no mundo do bonequinho verde sugiro que veja o inicio da serie neste POST
+
+Dando continuidade ao que temos vindo a aprender, hoje irei escrever sobre uma API, que vem disponível por defeito na plataforma mas infelizmente é muito pouco utilizada pelos desenvolvedores.
+
+Falo da Loaders API, que é uma API que oferece mecanismos para efectuar o carregamento de dados de forma assíncrona (Para quem quiser, tem uma boa descrição sobre Main / UI thread e background operations AQUI  ).
+
+Como disse acima, a Loaders API foi inicialmente introduzida no framework na versão do Android 3.0 e posteriormente introduzida na android support library v4 para que pudesse ser utilizada em versões inferiores. Esta API vem com varias vantagens comparadas ao AsyncTask e possui as seguintes características:Hello para todos os devs, espero que todos estejam muito bem e aprendendo com esta série sobre desenvolvimento para android/ Para quem esteja começando a embarcar no mundo do bonequinho verde sugiro que veja o inicio da serie neste POST
+
+Dando continuidade ao que temos vindo a aprender, hoje irei escrever sobre uma API, que vem disponível por defeito na plataforma mas infelizmente é muito pouco utilizada pelos desenvolvedores.
+
+Falo da Loaders API, que é uma API que oferece mecanismos para efectuar o carregamento de dados de forma assíncrona (Para quem quiser, tem uma boa descrição sobre Main / UI thread e background operations AQUI  ).
+
+Como disse acima, a Loaders API foi inicialmente introduzida no framework na versão do Android 3.0 e posteriormente introduzida na android support library v4 para que pudesse ser utilizada em versões inferiores. Esta API vem com varias vantagens comparadas ao AsyncTask e possui as seguintes características:Hello para todos os devs, espero que todos estejam muito bem e aprendendo com esta série sobre desenvolvimento para android/ Para quem esteja começando a embarcar no mundo do bonequinho verde sugiro que veja o inicio da serie neste POST
+
+Dando continuidade ao que temos vindo a aprender, hoje irei escrever sobre uma API, que vem disponível por defeito na plataforma mas infelizmente é muito pouco utilizada pelos desenvolvedores.
+
+Falo da Loaders API, que é uma API que oferece mecanismos para efectuar o carregamento de dados de forma assíncrona (Para quem quiser, tem uma boa descrição sobre Main / UI thread e background operations AQUI  ).
+
+Como disse acima, a Loaders API foi inicialmente introduzida no framework na versão do Android 3.0 e posteriormente introduzida na android support library v4 para que pudesse ser utilizada em versões inferiores. Esta API vem com varias vantagens comparadas ao AsyncTask e possui as seguintes características:</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="themoviedb_api_key">put your key here</string>
+
+    <string name="pref_short_key">movie_sort</string>
+    <string name="pref_short_title">Movie sort</string>
+    <string name="pref_short_dialgo_title">Select one sort</string>
+    <string name="pref_short_default_value">popularity.desc</string>
+    <string name="settings_label">Settings</string>
+    <string name="themoviedb_base_img_url">http://image.tmdb.org/t/p/w342</string>
+    <string name="title_activity_detail">MovieDetail</string>
+    <string name="text_view_label_title">Movie Title</string>
+    <string name="text_view_year_release_label">2015</string>
+    <string name="text_view_label_runtime">000min</string>
+    <string name="minutes_label">min</string>
+    <string name="no_minutes">000min</string>
+    <string name="text_view_label_votes">0.0/0</string>
+    <string name="text_view_label_sinopse">synopsis</string>
+    <string name="button_label_favorite">MARK AS FAVORITE</string>
+    <string name="no_release_date">-</string>
+    <string name="text_view_label_traillers">Traillers</string>
+    <string name="text_view_label_viewers">Reviews</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
